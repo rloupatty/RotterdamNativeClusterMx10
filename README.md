@@ -1,22 +1,45 @@
-# Introduction
+# Native Template
 
-This is a template for getting started with iOS development using GitLab and [fastlane](https://fastlane.tools/).
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React Native](https://img.shields.io/badge/react_native-0.75.4-blue.svg)
+![Node](https://img.shields.io/badge/node-v20-green.svg)
 
-# Reference links
+![Custom Dev App CI - Android](https://github.com/mendix/native-template/actions/workflows/android-build-custom-dev-app.yml/badge.svg?branch=master)
+![Custom Dev App CI - iOS](https://github.com/mendix/native-template/actions/workflows/ios-build-custom-dev-app.yml/badge.svg?branch=master)
 
-- [GitLab CI Documentation](https://docs.gitlab.com/ee/ci/)
-- [Blog post: Android publishing with iOS and fastlane](https://about.gitlab.com/2019/03/06/ios-publishing-with-gitlab-and-fastlane/)
+> **Compatible Mendix Studio Pro Versions**
 
-# Getting started
+![Studio Pro 10.18.x](https://img.shields.io/badge/Studio_Pro-10.18.x-blue)
 
-You'll need a working MacOS development environment with Xcode 10 to use this
-template. You can find instructions to get up and running on the Apple [Xcode website](https://developer.apple.com/xcode/).
+---
 
-If you want to use GitLab CI with your own MacOS runners (a requirement since we
-do not currently yet offer shared MacOS runners - follow [infrastructure#5294](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/5294) for
-updates on that front) please read through the blog post above which will walk 
-you through everything you need to get up and running.
+Native Template is the starting point for any Mendix Native App project.
 
-## What's contained in this project
+This repo is used as the baseline for Mendix Native Mobile Builder, a GUI tool that automates the process of building your Native Apps with Mendix and is provided with Mendix Studio Pro.
 
-This template contains a simple Food Tracker App based off of the [Start Developing iOS Apps (Swift) Lessons](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html). Where necessary the template has been upgraded to use Swift 4. The app displays a list of meals consisting of a name, rating, and photo. Users are able to add or edit a meal by navigating to a detail screen. The app also includes a lightweight solution for basic data persistence.
+Please refer to the [official how-to section](https://docs.mendix.com/howto/mobile/native-mobile) for Mendix Native Mobile.
+
+Contact [Mendix support](https://support.mendix.com/hc/en-us) if assistance is required.
+
+## Branching policy
+
+### Master branch
+
+Current master branch is the latest release, all the LTS versions live in `release/x.x.x`.
+
+### Release branches
+
+Official releases are done via the `release/x.x.x` branches. If you need a particular version, checkout the appropriate branch; latest should reflect the latest patch version released.
+
+Otherwise, the GitHub releases also include a zipped version of the branch state they were created from. You can download and unzip that for further use.
+
+To deduct which version of Native Template fits to your current Mendix Studio Pro version, please use the [mendix version json file](https://github.com/mendix/native-template/blob/master/mendix_version.json). It include a map of studio pro version ranges to Native template version ranges.
+
+Example usage:
+
+> **If you are using 10.18.x version of Studio Pro. Then use 11.x.x of Native Template.**
+
+### Developer branches
+
+Any other branches are considered developer branches.
+Simply avoid using developer branches for private use. These are actively worked on branches and are definitely not available for public consumption.
