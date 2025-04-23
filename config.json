@@ -1,6 +1,6 @@
 {
     "configVersion": 2,
-    "appIdentifier": "myapp.rotterdamnativeclustermx10",
+    "appIdentifier": "myapp.rotterdamnativeclustermx10.sessiebeheer",
     "appName": "RotterdamNativeClusterMx10",
     "bundleName": {
         "main": "RotterdamNative",
