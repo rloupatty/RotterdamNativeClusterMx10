@@ -132,6 +132,6 @@
     "appVersion": "1.0.0",
     "buildNumber": 3,
     "runtimeUrl": "https://rotterdamnativeclustermx10-sandbox.mxapps.io",
-    "hermesEnabled": true,
+    "hermesEnabled": false,
     "cookieEncryptionEnabled": false
 }
