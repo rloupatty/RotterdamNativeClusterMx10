@@ -1,5 +1,5 @@
 BUNDLE_DISPLAY_NAME = RotterdamNativeClusterMx10
-BUNDLE_IDENTIFIER = myapp.rotterdamnativeclustermx10
+BUNDLE_IDENTIFIER = myapp.rotterdamnativeclustermx10.sessiebeheer
 
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
