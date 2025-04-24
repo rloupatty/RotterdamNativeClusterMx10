@@ -62,7 +62,7 @@ android {
 
     namespace "com.mendix.nativetemplate"
     defaultConfig {
-        applicationId "myapp.rotterdamnativeclustermx10"
+        applicationId "myapp.rotterdamnativeclustermx10.sessiebeheer"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
