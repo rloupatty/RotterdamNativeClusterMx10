@@ -1,9 +1,9 @@
 BUNDLE_DISPLAY_NAME = RotterdamNativeClusterMx10
-BUNDLE_IDENTIFIER = myapp.rotterdamnativeclustermx10.sessiebeheer
+BUNDLE_IDENTIFIER = myapp.rotterdamnativeclustermx10
 
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
 RUNTIME_URL = https:\/\/rotterdamnativeclustermx10-sandbox.mxapps.io
 
 PRODUCT_NAME = RotterdamNative
-HERMES_ENABLED = NO
+HERMES_ENABLED = YES
